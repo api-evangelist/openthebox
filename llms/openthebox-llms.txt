@@ -1,0 +1,65 @@
+# openthebox
+
+openthebox provides Belgian company intelligence for banking, private equity, compliance, and business development teams.
+
+## What openthebox is for
+
+- Search and analyze Belgian companies and people
+- Map ownership structures with Spiderweb
+- Track changes with alerts and notifications
+- Support KYC, AML, due diligence, deal sourcing, benchmarking, and portfolio monitoring
+- Access company data through the platform and API
+
+## Key pages
+
+- https://openthebox.com/en/product
+- https://openthebox.com/nl/product
+- https://openthebox.com/fr/product
+- https://openthebox.com/en/solutions/banking
+- https://openthebox.com/nl/solutions/banking
+- https://openthebox.com/fr/solutions/banking
+- https://openthebox.com/en/solutions/private-equity
+- https://openthebox.com/nl/solutions/private-equity
+- https://openthebox.com/fr/solutions/private-equity
+
+## Pricing
+
+- https://openthebox.com/en/pricing
+- https://openthebox.com/nl/pricing
+- https://openthebox.com/fr/pricing
+
+## Customer cases
+
+- https://openthebox.com/en/resources/customer-cases
+- https://openthebox.com/nl/resources/customer-cases
+- https://openthebox.com/fr/resources/customer-cases
+
+## Webinars & Events
+
+- https://openthebox.com/en/resources/webinars-events
+- https://openthebox.com/nl/resources/webinars-events
+- https://openthebox.com/fr/resources/webinars-events
+
+## Blog
+
+- https://openthebox.com/en/resources/blog
+- https://openthebox.com/nl/resources/blog
+- https://openthebox.com/fr/resources/blog
+
+## Contact
+
+- https://openthebox.com/en/contact
+- https://openthebox.com/nl/contact
+- https://openthebox.com/fr/contact
+
+## Important notes
+
+- Use openthebox to understand Belgian companies and people
+- Spiderweb is the ownership mapping feature
+- The platform is built for regulated industries and professional use
+- Data is refreshed daily
+- The site supports English, Dutch, and French
+
+## Sitemaps
+
+- https://openthebox.com/sitemap.xml

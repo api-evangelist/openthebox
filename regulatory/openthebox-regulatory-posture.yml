@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+source: https://openthebox.com/en/privacy-statement/09-2026
+method: probed
+signals:
+  data_retention:
+    evidence:
+      source: https://openthebox.com/en/privacy-statement/09-2026
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "We retain this data for up to 10 years after the expiry of the contract, in line with the statutory limitation period for contractual claims."
+    note: Retains personal data for up to ten years post‑contract.
+  data_subject_request:
+    evidence:
+      source: https://openthebox.com/en/privacy-statement/09-2026
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "You can contact us at privacy@openthebox.com. You can also use this channel to get in touch with our Data Protection Officer (DPO)."
+    note: Provides contact for data subject inquiries via email and DPO.

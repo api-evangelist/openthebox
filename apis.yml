@@ -1,23 +1,75 @@
 aid: openthebox
+
 name: openthebox
-description: 'openthebox is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Openthebox provides AI‑powered Belgian company intelligence, offering ownership and deal sourcing data for financial services professionals. Its platform delivers real‑time insights into private markets, banking, private equity and M&A, helping advisors strengthen client relationships and accelerate growth through data‑driven analysis.'
+
 url: https://raw.githubusercontent.com/api-evangelist/openthebox/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- AI
+- Finance
+- Data
+- Intelligence
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/openthebox-llms.txt
+- type: Hosts
+  url: hosts/openthebox-hosts.yml
+- type: Vendors
+  url: vendors/openthebox-vendors.yml
+- type: DomainSecurity
+  url: security/openthebox-domain-security.yml
 - type: Website
   url: https://openthebox.com/
+- type: Blog
+  url: https://openthebox.com/en/resources/blog
+- type: Pricing
+  url: https://openthebox.com/en/pricing
+- type: TermsOfService
+  url: https://openthebox.com/en/terms-and-conditions/09-2026
+- type: PrivacyPolicy
+  url: https://openthebox.com/en/privacy-statement/09-2026
+- type: Contact
+  url: https://openthebox.com/en/contact
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://openthebox.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
